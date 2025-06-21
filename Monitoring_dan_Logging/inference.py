@@ -5,7 +5,7 @@ import json
 URL = "http://localhost:5001/invocations"
 
 # Load data JSON
-with open("model_dir/model/serving_input_example.json") as f:
+with open("MLModel/model/serving_input_example.json") as f:
     data = json.load(f)
 
 # Kirim request
